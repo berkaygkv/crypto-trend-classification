@@ -1,0 +1,23 @@
+name: crypto-prediction-project
+
+channels:
+  - conda-forge
+
+dependencies:
+  - pip
+  - pip:
+    - ploomber
+    - pandas
+    - scikit-learn
+    - jmespath
+    - matplotlib
+    - numpy
+    - plotly
+    - scipy
+    - pyyaml
+    - imblearn
+    - python-binance
+    - seaborn
+    - xgboost
+    - mlflow
+    - sklearn_evaluation
