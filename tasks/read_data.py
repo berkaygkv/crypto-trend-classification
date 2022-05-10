@@ -5,7 +5,7 @@ from src.data.get_historical_data import main
 
 
 def get_data(symbols, start_str="2022-03-1"):
-
+    #zocwashere
     interval = "5m" 
     df_total = main(interval=interval, start_str=start_str, symbols_list=symbols)
     df_validation = df_total.iloc[:500]
