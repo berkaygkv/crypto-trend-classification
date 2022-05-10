@@ -7,13 +7,13 @@ tasks:
       data_train: products/data/raw_train_data.csv
       data_validation: products/data/raw_validation_data.csv
     params:
-      symbols: VIDTUSDT
+      symbols: BTCUSDT
       start_str: 2022-03-1
   - source: tasks/process_data.ipynb
     upstream: [data_saving]
     name: data_processing
     params:
-      initial_return_thresh: 0.5
+      initial_return_thresh: 0.1
     product:
       nb: products/notebooks/process_data.ipynb
       data_train: products/data/processed_train_data.csv

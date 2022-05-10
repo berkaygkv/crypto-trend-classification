@@ -1,7 +1,11 @@
-# crypto-prediction-project
-Requires [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+# Crypto Trend Prediction Algorithm
+This is an MLflow integrated pipeline built by using Ploomber framework. Upon providing the required list of parameters, the input data will be processed and fed into the XGBoost Classifier which will be trained to predict in binary sense whether a given set of financials is neutral or bullish/bearish (e.g., it has reached the local maxima or minima). 
 
-## Setup
+The code itself can download the requested Crypto through using binance client (of which you'll need an API key provided in a keys.yaml file). This project in on development phase. Hopefully I will be fixing some bugs and adding the multiclass version of the work.
+
+__**DISCLAIMER: This algorithm is built for learning purposes and it's NOT advised to use it on live trading**__
+
+## Quick Setup
 
 ```sh
 # NOTE: if running ploomber <0.16, remove the --create-env argument
@@ -11,19 +15,9 @@ conda activate crypto-prediction-project
 
 ```
 
-## Code editor integration
-
-* If using Jupyter, [click here](https://docs.ploomber.io/en/latest/user-guide/jupyter.html)
-* If using VSCode, PyCharm, or Spyder, [click here](https://docs.ploomber.io/en/latest/user-guide/editors.html)
-
-
 
 ## Running the pipeline
 
 ```sh
 ploomber build
 ```
-
-## Help
-
-* Need help? [Ask us anything on Slack!](https://ploomber.io/community)
