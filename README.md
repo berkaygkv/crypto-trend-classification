@@ -21,3 +21,6 @@ conda activate crypto-prediction-project
 ```sh
 ploomber build
 ```
+
+## MLFlow View
+![Alt Text](img/mlflow.gif)
