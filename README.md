@@ -6,6 +6,9 @@ The code itself can download the requested Crypto through using binance client (
 __**DISCLAIMER: This algorithm is built for learning purposes and it's NOT advised to use it on live trading**__
 
 
+## First Experiment Notebook
+You can access the very first notebook output of the pipeline here: [Notebook: report-0](products/notebooks/report-0.ipynb)
+
 
 ## MLFlow View
 ![Alt Text](img/mlflow.gif)
