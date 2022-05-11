@@ -12,3 +12,5 @@ You can access the very first notebook output of the pipeline here: [Notebook: r
 
 ## MLFlow View
 ![Alt Text](img/mlflow.gif)
+
+Please refer to the [img folder](img/artifacts/) for the artifact files.
